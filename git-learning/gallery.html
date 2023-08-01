@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .images-container{
+            display: flex;
+            gap: 5rem;
+            margin-top: 40px;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 120px;
+            object-fit: fill;
+        }
+
+        img:hover{
+            box-shadow: 2px 9px 8px grey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gallery Page</h1>
+
+    <div class="images-container">
+        <img src="./img/Boruto wallpaper 2.jpg" />
+        <img src="./img/BORUTO-MANGA-DOWNLOAD.webp" />
+        <img src="./img/boruto.jpg" />
+        <img src="./img/boruto_wallpaper-removebg-preview.png" />
+    </div>
+</body>
+</html>
