@@ -6,9 +6,17 @@
   box-sizing: border-box;
 }
 
+body{
+  position: relative;
+}
+
 
 img{
-  border: 10px solid #fd0000
+  border: 10px solid #fd0000;
+  
+  position: fixed;
+  top: 20vh;
+  left: 20vh;
 }
 
 h3{
@@ -21,3 +29,5 @@ p{
   text-align: center;
   font-size: 25pt;
 }
+
+
