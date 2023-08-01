@@ -17,3 +17,54 @@ html, body{
     justify-content: center;
 }
 
+.container{
+    background-color: lightgray;
+    padding: 1.5rem 2rem;
+    border-radius: .6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 2rem 3rem;
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+input{
+    all: unset;
+    border: 1px solid #000;
+    width: 40rem;
+    height: 2rem;
+    border-radius: .3rem;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+}
+
+input::placeholder{
+    font-size: 1.2rem;
+}
+
+button{
+    all: unset;
+    background-color: #0000ff;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: .3rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: white;
+    color: blue;
+}
+
