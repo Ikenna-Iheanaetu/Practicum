@@ -12,9 +12,8 @@ html, body {
   font-size: 62.5%;
   width: 100vw;
   height: 100vh;
-  display: grid;
+  display: block;
   justify-content: center;
-  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1000px) {
@@ -34,19 +33,25 @@ html, body {
 }
 @media screen and (max-width: 500px) {
   main {
-    margin: 2% 5%;
+    margin: 2% 8%;
   }
   .end {
     gap: 1rem;
-    margin: 2% 5%;
+    margin: 2% 8%;
   }
   .links {
     gap: 1rem;
+  }
+  header h1 {
+    font-size: 5rem;
   }
 }
 @media screen and (min-width: 500px) {
   main, .end {
     margin: 2% 12%;
+  }
+  header h1 {
+    font-size: 7rem;
   }
 }
 h4 {
@@ -78,8 +83,8 @@ header {
   gap: 2rem;
 }
 header h1 {
+  display: block;
   color: #000000;
-  font-size: 7rem;
   font-weight: 700;
   letter-spacing: 1rem;
 }
