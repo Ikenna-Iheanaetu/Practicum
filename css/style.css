@@ -45,8 +45,7 @@ html, body {
   }
 }
 @media screen and (min-width: 500px) {
-  main,
-  .end {
+  main, .end {
     margin: 2% 12%;
   }
 }
