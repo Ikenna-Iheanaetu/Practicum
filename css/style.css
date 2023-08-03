@@ -45,6 +45,9 @@ html, body {
   header h1 {
     font-size: 5rem;
   }
+  main .about-container p {
+    font-size: 2rem
+  }
 }
 @media screen and (min-width: 500px) {
   main, .end {
@@ -53,7 +56,12 @@ html, body {
   header h1 {
     font-size: 7rem;
   }
+main .about-container p {
+    font-size: 1.3rem
 }
+}
+
+
 h4 {
   font-size: 2rem;
   letter-spacing: 0.5rem;
@@ -110,7 +118,6 @@ main .about-container .img img {
      object-fit: fill;
 }
 main .about-container p {
-  font-size: 2rem;
   font-weight: 400;
   letter-spacing: 0.2rem;
   line-height: 2.5rem;
