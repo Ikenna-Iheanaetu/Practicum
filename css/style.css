@@ -16,6 +16,26 @@ html, body {
   justify-content: center;
 }
 
+h4 {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+h4::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 85%;
+  height: 0.3rem;
+  background: linear-gradient(to right, #000, transparent);
+  border-radius: 0.4rem;
+}
+
 header {
   text-align: center;
   margin-top: 2rem;
@@ -42,25 +62,6 @@ main {
 main div {
   text-align: center;
 }
-main div h4 {
-  font-size: 2rem;
-  letter-spacing: 0.5rem;
-  font-weight: 600;
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-main div h4::after {
-  content: "";
-  position: absolute;
-  bottom: -0.5rem;
-  left: 0;
-  width: 85%;
-  height: 0.3rem;
-  background: linear-gradient(to right, #000, transparent);
-  border-radius: 0.4rem;
-}
 main .about-container {
   display: flex;
   gap: 2rem;
@@ -79,4 +80,85 @@ main .about-container p {
   line-height: 2.5rem;
   color: rgba(0, 0, 0, 0.6862745098);
   text-align: left;
+}
+
+.end {
+  display: flex;
+  gap: 4rem;
+  margin: 2% 12%;
+}
+.end .skills {
+  display: flex;
+  flex-direction: column;
+}
+.end .skills .head {
+  margin-bottom: 1rem;
+}
+.end .skills .skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.end .skills .skill-list .list {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  text-align: left;
+}
+.end .skills .skill-list .list label {
+  font-size: 2rem;
+}
+.end .skills .skill-list .list progress {
+  width: 20rem;
+  height: 15px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+.end .skills .skill-list .list progress::-webkit-progress-bar {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+.end .skills .skill-list .list progress::-webkit-progress-value {
+  background-color: rgba(63, 62, 62, 0.6156862745);
+  border-radius: 5px;
+}
+.end .contact {
+  display: flex;
+  flex-direction: column;
+}
+.end .contact .head {
+  margin-bottom: 1rem;
+}
+.end .contact .head h6 {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  color: rgba(0, 0, 0, 0.6862745098);
+}
+.end .contact .head p {
+  font-size: 1.2rem;
+  letter-spacing: 0.15rem;
+  line-height: 1.5rem;
+}
+.end .contact .links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.end .contact .links .link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.end .contact .links .link i {
+  font-size: 2.5rem;
+}
+.end .contact .links .link a {
+  text-decoration: none;
+}
+.end .contact .links .link a p {
+  font-size: 1.2rem;
+}
+.end .contact .links .link p {
+  font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
