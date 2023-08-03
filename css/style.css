@@ -37,7 +37,7 @@ html, body {
   }
   .end {
     gap: 1rem;
-    margin: 4% 8%;
+    margin: 2% 8%;
   }
   .links {
     gap: 1rem;
@@ -45,8 +45,8 @@ html, body {
   header h1 {
     font-size: 5rem;
   }
-  main .about-container p {
-    font-size: 2rem
+  header h3 {
+    font-size: 0.85rem;
   }
 }
 @media screen and (min-width: 500px) {
@@ -56,12 +56,10 @@ html, body {
   header h1 {
     font-size: 7rem;
   }
-main .about-container p {
-    font-size: 1.3rem
+  header h3 {
+    font-size: 1.5rem;
+  }
 }
-}
-
-
 h4 {
   font-size: 2rem;
   letter-spacing: 0.5rem;
@@ -97,7 +95,6 @@ header h1 {
   letter-spacing: 1rem;
 }
 header h3 {
-  font-size: 1.5rem;
   letter-spacing: 0.5rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.6862745098);
@@ -118,6 +115,7 @@ main .about-container .img img {
      object-fit: fill;
 }
 main .about-container p {
+  font-size: 2rem;
   font-weight: 400;
   letter-spacing: 0.2rem;
   line-height: 2.5rem;
@@ -148,11 +146,11 @@ main .about-container p {
   text-align: left;
 }
 .end .skills .skill-list .list label {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 .end .skills .skill-list .list progress {
-  width: 20rem;
-  height: 15px;
+  width: 15rem;
+  height: 8px;
   border: 1px solid #000000;
   border-radius: 5px;
   background-color: #f1f1f1;
@@ -179,9 +177,9 @@ main .about-container p {
   margin-bottom: 1.2rem;
 }
 .end .contact .head p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   letter-spacing: 0.15rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 .end .contact .links {
   display: flex;
