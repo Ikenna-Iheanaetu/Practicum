@@ -1,1 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Figtree", sans-serif;
+  font-size: 62.5%;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+.container header {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.container header h1 {
+  color: #000000;
+  font-size: 7rem;
+  font-weight: 700;
+  letter-spacing: 1rem;
+}
+.container header h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6862745098);
+}/*# sourceMappingURL=style.css.map */
