@@ -1,0 +1,19 @@
+header {
+  width: 100%;
+  height: 8rem;
+
+  background-color: $bg-blue;
+
+  & .header__container {
+    @include gridCenter;
+
+    &__text {
+      margin-top: 1.3rem;
+      padding: 1.2rem 4rem;
+      background-color: $bg-white;
+      font-size: 2rem;
+      font-weight: 700;
+      color: $text-blue;
+    }
+  }
+}

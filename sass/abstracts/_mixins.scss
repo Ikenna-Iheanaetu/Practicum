@@ -1,0 +1,10 @@
+@mixin gridCenter{
+    display: grid;
+    place-content: center;
+}
+
+@mixin flexCol{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

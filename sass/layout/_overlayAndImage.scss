@@ -1,0 +1,26 @@
+.overlayAndImage {
+  width: 195rem;
+  height: 90rem;
+
+  background: url("../../img/itachi.jpg") no-repeat;
+  background-size: contain;
+
+  &__container {
+    @include flexCol;
+
+    position: relative;
+    top: 32rem;
+
+    width: 55rem;
+    padding: 3rem 2rem;
+
+    background-color: $bg-white;
+    color: $text-blue;
+
+    border: solid $border-blue;
+    border-width: 0.4rem 0.4rem 0.4rem 0;
+
+    font-size: 3rem;
+    font-weight: 500;
+  }
+}
