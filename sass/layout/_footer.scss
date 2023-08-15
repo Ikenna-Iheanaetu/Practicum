@@ -1,0 +1,17 @@
+.footer{
+    background-color: $black;
+
+    display: grid;
+    place-content: center;
+
+        &_container{
+            & h5{
+                font-size: 1.2rem;
+                color: $white;
+
+                    & span{
+                        text-decoration: underline;
+                    }
+            }
+        }
+}

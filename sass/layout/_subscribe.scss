@@ -1,0 +1,50 @@
+.subscribe {
+  display: grid;
+  place-content: center;
+  margin: 2rem 0 4rem 0;
+
+  &_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    &_header {
+      &_text {
+        font-size: 3.5rem;
+        color: $primary;
+      }
+    }
+
+    &_input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        & input{
+            all: unset;
+
+            width: 30rem;
+            height: 2rem;
+
+            padding-bottom: .5rem;
+
+            border-bottom: .2rem solid $primary;
+
+            font-size: 3rem;
+
+        }
+
+        & button{
+            all: unset;
+            padding: .1rem 4rem;
+
+            background-color: $primary;
+            color: $white;
+
+            font-size: 1.5rem;
+        }
+    }
+  }
+}

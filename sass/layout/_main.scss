@@ -1,0 +1,54 @@
+.main {
+  padding: 0.6% 10%;
+
+  &_container {
+    &_image {
+      width: 100%;
+      height: 65rem;
+
+      padding-bottom: 0.8rem;
+
+      border-bottom: .9rem solid $primary;
+    }
+
+    &_body{
+        &_header{
+            text-align: center;
+            margin: 2rem 0 2rem 0;
+
+            &_text{
+                font-size: 6rem;
+                font-weight: 700;
+                color: $primary;
+            }
+        }
+
+        &_text{
+            font-size: 3rem;
+            line-height: 2.2;
+            font-weight: 00;
+            margin-bottom: 2rem;
+        }
+
+        &_ingredients{
+            &_header{
+                font-size: 3.5rem;
+                color: $primary;
+                margin-bottom: 2rem;
+            }
+
+            &_list{
+                margin: 2% 2%;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                &_items{
+                    font-size: 2.5rem;
+                    
+                }
+            }
+        }
+    }
+  }
+}
