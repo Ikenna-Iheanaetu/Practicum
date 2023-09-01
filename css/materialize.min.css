@@ -1294,7 +1294,7 @@
   color: #ef6c00 !important;
 }
 .orange.darken-4 {
-  background-color: #e65100 !important;
+  background-color: #E65100 !important;
 }
 .orange-text.text-darken-4 {
   color: #e65100 !important;
@@ -6979,7 +6979,7 @@ input[type="range"]::-ms-thumb {
   border-radius: 50%;
 }
 .slider .indicators .indicator-item.active {
-  background-color: #4caf50;
+  background-color: #E65100;
 }
 .carousel {
   overflow: hidden;

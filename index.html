@@ -3,234 +3,230 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Materialize Css</title>
-
-    <!-- Import materialize.css -->
     <link
-      type="text/css"
-      rel="stylesheet"
-      href="css/materialize.min.css"
-      media="screen,projection"
+      rel="shortcut icon"
+      href="./img/rcon.png"
+      typ
+      text-darken-4e="image/x-icon"
     />
-    <!-- <link rel="stylesheet" href="./css/materialize.min.css" /> -->
+    <title>Reciepe</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/materialize.min.css" />
   </head>
   <body>
-    <div class="navbar-fixed">
-      <nav class="red darken-4a">
-        <div class="nav-wrapper">
-          <div class="container">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <img
-                src="./img/headset.jpg"
-                class="responsive-img"
-                style="
-                  height: 35px;
-                  width: 40px;
-                  border-radius: 20px;
-                  margin-top: 12px;
-                "
-              />
-            </a>
-            <ul class="right">
-              <li><a href="">Home</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Contact Us</a></li>
-            </ul>
+    <header>
+      <!-- Navbar  -->
+      <div class="navbar-fixed">
+        <nav class="white">
+          <div class="nav-wrapper">
+            <div class="container">
+              <a href="" class="brand-logo hide-on-small-and-down">
+                <img src="./img/logo.png" alt="logo" class="" width="15%" />
+              </a>
+              <a href="" class="brand-logo hide-on-med-and-up">
+                <img src="./img/logo.png" alt="logo" class="" width="40%" />
+              </a>
+              <a
+                href="#mobile-links"
+                class="right sidenav-trigger hide-on-med-and-up"
+              >
+                <i class="bx bx-menu orange-text text-darken-4"></i>
+              </a>
+              <ul class="right hide-on-small-and-down">
+                <li>
+                  <a href="#" class="orange-text text-darken-4">Home</a>
+                </li>
+                <li>
+                  <a href="#cakes" class="orange-text text-darken-4">Cakes</a>
+                </li>
+                <li>
+                  <a href="#soups" class="orange-text text-darken-4">Soups</a>
+                </li>
+                <li>
+                  <a href="#chicken" class="orange-text text-darken-4"
+                    >Chicken</a
+                  >
+                </li>
+                <li>
+                  <a href="#customers" class="orange-text text-darken-4"
+                    >Customers</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </div>
+        </nav>
+      </div>
 
-    <div class="slider">
-      <ul class="slides">
-        <li class="slides">
-          <img
-            src="./img/chicken_5.webp"
-            alt="chicken images"
-            class="responsive-img"
-          />
+      <ul class="sidenav" id="mobile-links">
+        <li>
+          <a href="#" class="red-text">Home</a>
         </li>
-        <li class="slides">
-          <img
-            src="./img/chicken_1.webp"
-            alt="chicken images"
-            class="responsive-img"
-          />
+        <li>
+          <a href="#cakes" class="red-text">Cakes</a>
         </li>
-        <li class="slides">
-          <img
-            src="./img/chicken_8.webp"
-            alt="chicken images"
-            class="responsive-img"
-          />
+        <li>
+          <a href="#soups" class="red-text">Soups</a>
+        </li>
+        <li>
+          <a href="#chicken" class="red-text">Chicken</a>
+        </li>
+        <li>
+          <a href="#customers" class="red-text">Customers</a>
         </li>
       </ul>
-    </div>
 
-    <div class="carousel">
-      <a class="carousel-item" href="#one!"
-        ><img src="./img/chicken_1.webp" class="responsive-img"
-      /></a>
-      <a class="carousel-item" href="#two!"
-        ><img src="./img/chicken_5.webp" class="responsive-img"
-      /></a>
-      <a class="carousel-item" href="#three!"
-        ><img src="./img/chicken_8.webp" class="responsive-img"
-      /></a>
-    </div>
-
-    <div class="parallax-container">
-      <div class="parallax">
-        <img src="./img/berries.jpg" class="responsive-img" />
+      <!-- Slider  -->
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img
+              src="./img/cake_fruit.jpg"
+              class="responsive-img orange-text"
+            />
+          </li>
+          <li><img src="./img/shrimp_soup.jpg" class="responsive-img" /></li>
+          <li><img src="./img/chicken_3.jpg" class="responsive-img" /></li>
+          <li>
+            <img src="./img/dessert_chocolate.jpg" class="responsive-img" />
+          </li>
+          <li><img src="./img/ginger_cake.webp" class="responsive-img" /></li>
+        </ul>
       </div>
-    </div>
+    </header>
 
-    <div class="container">
-      <h1 class="center">Services</h1>
-      <div class="row">
-        <div class="col s12 m6 l3">
-          <ul class="collapsible">
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons">First</i>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Deserunt facilis, optio repellendus voluptatem iste temporibus
-                  eius dolore necessitatibus, sapiente nulla quos consequuntur
-                  consequatur aperiam voluptatibus provident magnam omnis nemo
-                  suscipit! Velit aliquam similique quam incidunt, sit commodi,
-                  quaerat eveniet, laudantium numquam ducimus adipisci modi
-                  illum et! Aut facilis vel unde eveniet laboriosam repellendus
-                  itaque ad placeat, esse, necessitatibus, corporis animi?</span
-                >
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="col s12 m6 l3">
-          <ul class="collapsible">
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons">Second</i>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Deserunt facilis, optio repellendus voluptatem iste temporibus
-                  eius dolore necessitatibus, sapiente nulla quos consequuntur
-                  consequatur aperiam voluptatibus provident magnam omnis nemo
-                  suscipit! Velit aliquam similique quam incidunt, sit commodi,
-                  quaerat eveniet, laudantium numquam ducimus adipisci modi
-                  illum et! Aut facilis vel unde eveniet laboriosam repellendus
-                  itaque ad placeat, esse, necessitatibus, corporis animi?</span
-                >
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="col s12 m6 l3">
-          <ul class="collapsible">
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons">Third</i>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Deserunt facilis, optio repellendus voluptatem iste temporibus
-                  eius dolore necessitatibus, sapiente nulla quos consequuntur
-                  consequatur aperiam voluptatibus provident magnam omnis nemo
-                  suscipit! Velit aliquam similique quam incidunt, sit commodi,
-                  quaerat eveniet, laudantium numquam ducimus adipisci modi
-                  illum et! Aut facilis vel unde eveniet laboriosam repellendus
-                  itaque ad placeat, esse, necessitatibus, corporis animi?</span
-                >
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="col s12 m6 l3">
-          <ul class="collapsible">
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons">Fourth</i>
-              </div>
-              <div class="collapsible-body">
-                <span
-                  >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Deserunt facilis, optio repellendus voluptatem iste temporibus
-                  eius dolore necessitatibus, sapiente nulla quos consequuntur
-                  consequatur aperiam voluptatibus provident magnam omnis nemo
-                  suscipit! Velit aliquam similique quam incidunt, sit commodi,
-                  quaerat eveniet, laudantium numquam ducimus adipisci modi
-                  illum et! Aut facilis vel unde eveniet laboriosam repellendus
-                  itaque ad placeat, esse, necessitatibus, corporis animi?</span
-                >
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- <div class="conatiner">
-      Modal Trigger
-      <a class="waves-effect waves-light btn modal-trigger" href="#modal1"
-        >Modal</a
-      >
-
-      Modal Structure
-      <div id="modal1" class="modal">
-        <div class="modal-content">
-          <h4>Modal Header</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
-            quam mollitia dolorem eaque voluptatem itaque repellendus quibusdam
-            tempore minus molestiae animi natus ipsa ullam placeat. Quisquam ad
-            cum id! Laborum sit nobis sunt voluptatum ullam animi! Aut et esse
-            velit.
+    <main>
+      <section id="home">
+        <div class="container">
+          <h3 class="orange-text text-darken-4">Hello there, foodies!</h3>
+          <p style="line-height: 30px; font-size: 1.5rem">
+            You smart, you loyal, you a genius. You see hedges, how I got it
+            shaped up? it's important to shape up your hedges, it's like getting
+            a haircut, stay fresh. I'm giving you cloth talk, cloth. Special
+            cloth alert, cut from special cloth. In life there will be road
+            blocks but we will over come it. In life you have to take the trash
+            out, if you have trash in your life, take it out, throw it away, get
+            rid of it, major key.
           </p>
         </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat"
-            >Agree</a
-          >
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="divider" style="margin-top: 40px; margin-bottom: 40px;"></div>
+          <div class="row">
+            <div class="col s12 m6 l4">
+              <ul class="collapsible popout">
+                <li>
+                  <div
+                    class="collapsible-header center orange darken-4 white-text"
+                  >
+                    <i class="bx bxs-label"></i>
+                    <strong>CAKES!</strong>
+                  </div>
+                  <div class="collapsible-body">
+                    <img
+                      src="./img/sponge_cake.webp"
+                      class="responsive-img"
+                      alt=""
+                    />
+                    <h6>
+                      I'm giving you cloth talk, cloth. Special cloth alert, cut
+                      from a special cloth. It's on you how you want to live
+                      your life.
+                    </h6>
+
+                    <a
+                      href="#cakes"
+                      class="btn-flat orange darken-4 white-text"
+                    >
+                      <strong>ALL CAKE RECIPES</strong>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col s12 m6 l4">
+              <ul class="collapsible popout">
+                <li>
+                  <div
+                    class="collapsible-header center orange darken-4 white-text"
+                  >
+                    <i class="bx bxs-label"></i>
+                    <strong>SOUPS</strong>
+                  </div>
+                  <div class="collapsible-body">
+                    <img
+                      src="./img/mexican_soup.webp"
+                      class="responsive-img"
+                      alt=""
+                    />
+                    <h6>
+                      The key to success is to keep your head above the water,
+                      never give up. The key is to drink fresh coconut. Special
+                      cloth talk!
+                    </h6>
+
+                    <a
+                      href="#soups"
+                      class="btn-flat orange darken-4 white-text"
+                    >
+                      <strong>ALL SOUP RECIPES</strong>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col s12 m6 l4">
+              <ul class="collapsible popout">
+                <li>
+                  <div
+                    class="collapsible-header center orange darken-4 white-text"
+                  >
+                    <i class="bx bxs-label"></i>
+                    <strong>CHICKEN</strong>
+                  </div>
+                  <div class="collapsible-body">
+                    <img
+                      src="./img/chicken_8.webp"
+                      class="responsive-img"
+                      alt=""
+                    />
+                    <h6>
+                      A major key, never panic. Don't panic, when it gets crazy
+                      and rough, don't panic, stay calm. The key is to drink
+                      some fresh milk.
+                    </h6>
+                    <a
+                      href="#chicken"
+                      class="btn-flat orange darken-4 white-text"
+                    >
+                      <strong>ALL CHICKEN RECIPES</strong>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="divider" style="margin-top: 40px; margin-bottom: 20px;"></div>
         </div>
-      </div>
-    </div> -->
+      </section>
+    </main>
 
-    <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <footer></footer>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- <script type="text/javascript" src="./js/materialize.min.js"></script> -->
 
+    <script src="./js/jquery.js"></script>
+    <script src="./js/materialize.min.js"></script>
     <script>
       $(document).ready(() => {
-        const sliderOptions = {
-          interval: 1000,
-          height: 500,
-          duration: 100,
-          // indicators: false,
-        };
-        $(".slider").slider(sliderOptions);
-
-        $(".carousel").carousel();
-
-        const collapsibleOptions = {
-          accordion: false,
-          inDuration: 150,
-          outDuration: 150,
-        };
-        $(".collapsible").collapsible(collapsibleOptions);
-
-        $(".modal").modal();
-
-        $(".parallax").parallax();
+        $(".sidenav").sidenav();
+        $(".slider").slider();
+        $(".collapsible").collapsible();
       });
     </script>
   </body>
