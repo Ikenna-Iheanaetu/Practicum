@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+
+    <!-- Import materialize.css -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <style>
+
+        body{
+            font-family: cursive;
+        }
+
+      .container {
+        margin: 0 auto;
+        max-width: 1280px;
+        width: 50%;
+        margin-top: 40px;
+        padding: 80px;
+        border: 40px solid #0000;
+      }
+
+      h3 {
+        text-align: center;
+      }
+
+      .mt-4 {
+        margin-top: 100px;
+      }
+
+      .mt-2 {
+        margin-top: 50px;
+      }
+
+      button{
+        all: unset;
+        padding: 20px;
+        border: 2px solid #0000;
+        margin-top: 20px;
+      }
+
+      p{
+        margin-top: 20px;
+      }
+
+      p span{
+        color: #28AEA2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Login Form</h3>
+
+      <div class="col s12">
+        <form action="">
+
+          <div class="input-field mt-2 col s12 l12">
+            <i class="material-icons prefix">email</i>
+            <input type="text" id="email" class="materialize-textarea" />
+            <label for="email">Email</label>
+          </div>
+
+          <div class="input-field mt-2 col s12 l6">
+            <i class="material-icons prefix">password</i>
+            <input type="text" class="" id="fname" />
+            <label for="fname">Password</label>
+          </div>
+
+          <button class="btn">
+            Login
+          </button>
+
+          <div>
+            <p>If don't have an account <span>Sign Up here</span></p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+      $(document).ready(() => {});
+    </script>
+
+    <script>
+        const btn = document.querySelector('.btn')
+
+        btn.addEventListener('click', () => {
+            btn.innerHTML = 'Login...'
+
+            setTimeout(() => {
+                btn.innerHTML = 'Login...'
+            }, 5000);
+        })
+    </script>
+  </body>
+</html>
